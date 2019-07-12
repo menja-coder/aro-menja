@@ -1,23 +1,4 @@
-#Half pyramid
-def half_pyramid
-	puts " Salut, bienvennu dans ma super pyramide!"
-	etage = 1
 
-#Boucle qui permet de repeter l'action si l'utilisateur entre un nombre en dehors de 1 et 25
-	loop { 
-			 puts "Combien d'etage veux-tu(entre 1 et 25)?"
-			 etage = gets.chomp.to_i
-
-			break if (etage>=1 && etage<=25)
-		 }
-
-
-				l = " "
-				for ligne in 1..etage
-					puts "#{l}*"
-					l = l + "*"
-				end
-end
 #Fonction qui definit le nombre d'etage
 def nb_floor
 	puts " Salut, bienvennu dans ma super pyramide!"
